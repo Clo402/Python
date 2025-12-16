@@ -1,0 +1,8 @@
+#Input a word
+text=str(input("Enter a string:"))
+#Reverse String
+#Using step value as -1 to iterate in reverse
+revText=text[::-1]
+text=revText
+print("Reverse of given string is:")
+print(text)
